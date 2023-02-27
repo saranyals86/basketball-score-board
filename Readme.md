@@ -1,0 +1,1 @@
+This is the design of a scoreboard for Basketball game.

@@ -4,12 +4,11 @@ body {
 
 .container {
     margin: 0 50px;
+    width:100vw;
+    height:100vh;
     display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template: repeat(3,1fr)/repeat(2,1fr);
-    background-color: #483D8B;
-    grid-column-gap:40px; 
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    background-color: #1B244A;
 }
 
 .board{
@@ -19,53 +18,70 @@ body {
 .title{
     color:white;
     font-weight: 700;
-font-size: 40px;
-line-height: 36px;
-    
+    font-size: 70px;
+    line-height: 36px;
+    margin: 40px;
+    margin-top: 50px;;
+    margin-left: 300px; 
 }
 
 #score-h{
-    min-height: 8rem;
+    min-height: 12rem;
     max-width: 3em;
+    position: absolute;
+    width:250px;
+    margin: 60px;
+    margin-left: 280px;
     border: solid black 4px;
-    text-align: center;
     color: red;
     font-family: 'DotGothic16';
     font-weight: 400;
-    font-size: 90px;
+    font-size: 170px;
     line-height: 127px;
     text-align: center;
     color: #F94F6D;
     border: 1px solid #000000;
     background: black;
+    padding-top: 30px;
     border-radius: 6px;
     }
 #score-g{
-    min-height: 8rem;
+    min-height: 12rem;
     max-width: 4em;
+    position: absolute;
+    width:250px;
+    margin: 50px;
+    margin-left: 290px;
     border: solid black 4px;
-    text-align: center;
     color: red;
     font-family: 'DotGothic16';
     font-weight: 400;
-    font-size: 90px;
+    font-size: 170px;
     line-height: 127px;
     text-align: center;
     color: #F94F6D;
     border: 1px solid #000000;
     background: black;
+    padding-top: 30px;
     border-radius: 6px;
 }
 
 .inc{
+    
+    max-width: 15em;
+    margin-top: 280px;
+    margin-left: 300px;
     position:absolute;
-    max-width: 10em;
-    margin-top: 100px;
-     
+    top: 171px;
 }
 #inc1,#inc2,#inc3,#inc21,#inc22,#inc23{
-    border:2px solid white;
-    background-color: #483D8B;
+
+    width:70px;
+    height:80px;
+    
+    border:5px solid #9AABD8;
+    background-color: #1B244A;
     color:white;
-    border-radius: 3px;
+    border-radius: 10px;
+    font-size: 30px;
 }
